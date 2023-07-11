@@ -52,6 +52,12 @@ button{
     line-height: 102px;
 }
 
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+
 .hero p{
     font-weight: 600;
     color: var(--gray);
@@ -83,8 +89,4 @@ button{
     gap: 16px;
 }
 
-.hero-content{
-    display: flex;
-    flex-direction: column;
-    gap: 36px;
-}
+
